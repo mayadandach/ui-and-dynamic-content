@@ -1,0 +1,75 @@
+
+h1{
+    font-family: 'Noto Serif JP',Georgia, serif;
+    text-align:center;
+    margin-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #B6ECF7;
+    background: rgba(0, 0, 0, 0.4)     
+}
+
+p{
+    font-family: 'Roboto', Times, sans-serif;
+    text-align:center;
+}
+
+ul{
+    font-family: 'Roboto', Times, sans-serif;
+}
+
+i{
+    font-size: 2rem;
+    padding: 1rem;
+    text-align:center;
+}
+
+footer{
+    background-color: #55B0C2;
+}
+   
+
+@media only screen and (min-width: 25rem) {
+    .page{
+        max-width: 45rem;
+        margin: auto;
+        background-image: url("../img/fruits.jpg");
+    }
+   
+    input{
+        width:72%;
+        margin-bottom: 1rem;
+        margin-left: 3rem;
+        padding: 1rem;
+        margin-top: 7rem;
+    }
+    
+    button{
+        width:77%;
+        margin-left: 3rem;
+        margin-bottom: 6rem;
+        padding: 1rem;
+        background-color: #6CDEF5;  
+    }    
+    
+     li{
+        padding-bottom: 1.5rem;
+        padding-bottom: 1rem;
+        border-bottom-style: solid;
+        border-bottom-color:#B6ECF7;
+        border-bottom-width: 4px;
+    }
+
+    .icons{
+        max-width: 45rem;
+        margin: auto;
+        text-align:center;
+    }
+    
+    i{
+        font-size: 2rem;
+        padding: 1rem;
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
